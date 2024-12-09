@@ -11,6 +11,12 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        geist: ["Geist", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
+        playfair: ["Playfair Display", "serif"],
+        cabinet: ["Cabinet Grotesk", "sans-serif"],
+      },
     },
   },
   plugins: [],
