@@ -10,6 +10,11 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        pinkGradientStart: "#EE4197",
+        whiteGradientEnd: "#FFFFFF",
+      },
+      backgroundImage: {
+        "custom-gradient": "linear-gradient(180deg, var(--tw-gradient-stops))",
       },
       fontFamily: {
         geist: ["Geist", "sans-serif"],

@@ -9,44 +9,19 @@ import { CiHeart } from "react-icons/ci";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 import bigTable from "@/Images/Bigtable.png";
 
-const ArticlesSimilaities = () => {
-  const CustomNextArrow = (props) => {
-    const { onClick } = props;
-    return (
-      <div
-        className="absolute right-0 top-1/2 -translate-y-1/2 bg-[#5CD2DD] text-white p-2 rounded cursor-pointer z-50 hover:bg-[#5CD2DD]/2"
-        onClick={onClick}
-      >
-        <FaArrowRight />
-      </div>
-    );
-  };
-
-  const CustomPrevArrow = (props) => {
-    const { onClick } = props;
-    return (
-      <div
-        className="absolute left-0 top-1/2 -translate-y-1/2 bg-[#5CD2DD] text-white p-2 rounded cursor-pointer z-50 hover:bg-[#5CD2DD]/2"
-        onClick={onClick}
-      >
-        <FaArrowLeft />
-      </div>
-    );
-  };
-
+const SliderComponent = () => {
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 1,
-    nextArrow: <CustomNextArrow />,
-    prevArrow: <CustomPrevArrow />,
+
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
         },
       },
       {
@@ -59,12 +34,11 @@ const ArticlesSimilaities = () => {
   };
 
   const cards = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }];
-
   return (
-    <div className="relative px-5 w-full bg-[rgba(251,249,248,0.6)]">
+    <div className="relative p-5 w-[99%] bg-[rgba(251,249,248,0.6)] ">
       <div className="flex lg:p-4 justify-between items-center">
         <h4 className="font-cabinet text-[20px] font-normal leading-[25px] text-left grow">
-          Articles similaires
+          Ces produits pourraient vous intéresser
         </h4>
         <span className="font-cabinet flex:inline text-[12px] font-normal text-[#9C9C9C] underline decoration-underline uppercase ">
           Voir toute la collection
@@ -111,4 +85,4 @@ const ArticlesSimilaities = () => {
   );
 };
 
-export default ArticlesSimilaities;
+export default SliderComponent;
