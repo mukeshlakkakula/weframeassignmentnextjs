@@ -98,10 +98,10 @@ const BannerSection = () => {
           </h4>
           <p className="text-sm text-[#BDA2B0] pb-2">
             Office ipsum you must be muted. Synergize helicopter prioritize
-            anyway job due harvest most opportunity didn't. Yet busy any meeting
-            shark light marginalised 4-blocker message. Productize corporate
-            nail caught synergy highlights lunch. Company another pushback items
-            dear or any.{" "}
+            anyway job due harvest most opportunity didn&apos;t. Yet busy any
+            meeting shark light marginalised 4-blocker message. Productize
+            corporate nail caught synergy highlights lunch. Company another
+            pushback items dear or any.{" "}
           </p>
           <div className="flex justify-between items-center gap-2">
             <input
