@@ -5,17 +5,16 @@ import { useState } from "react";
 import { FiMenu, FiX } from "react-icons/fi";
 import Image from "next/image";
 import weFramelogo from "@/Images/Group.png";
-import { CiSearch } from "react-icons/ci";
+
 import { FaRegLightbulb } from "react-icons/fa6";
-import { CiHeart } from "react-icons/ci";
-import { CiShoppingCart } from "react-icons/ci";
+
+import { CiShoppingCart, CiHeart, CiSearch } from "react-icons/ci";
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false); // State for menu toggle
 
   return (
     <header className="bg-white pl-4 pr-4 pt-4 lg:pb-0 pb-4 shadow-md sm:pb-4">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Logo or Home Link */}
         <div className=" flex items-center gap-4 justify-between ">
           <Link href="/">
             <Image src={weFramelogo} alt="Logo" width={133} height={65} />

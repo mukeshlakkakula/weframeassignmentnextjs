@@ -22,7 +22,7 @@ const BannerSection = () => {
       <div className=" relative  grid grid-cols-2 md:grid-cols-4 gap-8 mt-10 mb-10 mx-auto max-w-5xl">
         <div className="text-center">
           <Image
-            src={BannerImg1} // Replace with your icon
+            src={BannerImg1}
             alt="Livraison"
             width={56}
             height={51}
@@ -39,7 +39,7 @@ const BannerSection = () => {
         />
         <div className="text-center">
           <Image
-            src={BannerImg2} // Replace with your icon
+            src={BannerImg2}
             alt="Livraison"
             width={56}
             height={51}
@@ -56,7 +56,7 @@ const BannerSection = () => {
         />
         <div className="text-center">
           <Image
-            src={BannerImg3} // Replace with your icon
+            src={BannerImg3}
             alt="Livraison"
             width={50}
             height={50}
@@ -73,7 +73,7 @@ const BannerSection = () => {
         />
         <div className="text-center">
           <Image
-            src={BannerImg4} // Replace with your icon
+            src={BannerImg4}
             alt="Livraison"
             width={56}
             height={51}

@@ -46,8 +46,8 @@ const ItemDetails = () => {
               <Image src={lighttable} alt="anotherImages" />
             </button>
           </div>
-          <div className="">
-            <Image src={detailItemImage} alt="fullImage" />
+          <div>
+            <Image src={detailItemImage} alt="fullImage" priority />
           </div>
         </div>
         <div className="w-full flex flex-col gap-4 justify-between ">
