@@ -80,7 +80,7 @@ export default function Header() {
           <ul className="flex flex-col space-y-4 text-left py-2">
             <div className="flex p-4 pb-0 gap-2">
               <p className="bg-[#EAEDEE] p-5 rounded-full"></p>
-              <select>
+              <select className="rounded p-1">
                 {" "}
                 <option>FR</option>
                 <option>ENG</option>

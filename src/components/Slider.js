@@ -35,7 +35,7 @@ const SliderComponent = () => {
 
   const cards = [{ id: 1 }, { id: 2 }, { id: 3 }, { id: 4 }];
   return (
-    <div className="relative p-5 w-[99%] bg-[rgba(251,249,248,0.6)] ">
+    <div className="relative p-5 w-[98%] lg:w-full bg-[rgba(251,249,248,0.6)] ">
       <div className="flex lg:p-4 justify-between items-center">
         <h4 className="font-cabinet text-[20px] font-normal leading-[25px] text-left grow">
           Ces produits pourraient vous intéresser

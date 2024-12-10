@@ -15,7 +15,7 @@ const BannerSection = () => {
           On s&apos;occupe de{" "}
           <span className="text-[#5CD2DD] font-bold">tout</span>
         </h2>
-        <p className="text-[#9C9C9C] mt-2 text-xs">
+        <p className="text-[#9C9C9C] mt-2 text-xs p-2">
           Office lorem you must be muted. It meeting commitment busy pain.
         </p>
       </div>
@@ -106,7 +106,7 @@ const BannerSection = () => {
           <div className="flex justify-between items-center gap-2">
             <input
               type="search"
-              className="h-[35px] lg:h-[50px] text-[#A68A98] pl-6 rounded grow border-2-[#F5E1EB] w-full"
+              className="h-[35px] lg:h-[50px] text-[#A68A98] pl-6 pr-2 border radius-md rounded grow border-[#F5E1EB] w-full"
               placeholder="john@doe.com"
             />
             <button className="h-[35px] lg:h-[50px] text-xs lg:text-sm w-[100px] lg:min-w-[120px] bg-[#5CD2DD] rounded uppercase flex items-center justify-around p-2 gap-2 text-[#FFFFFF]">

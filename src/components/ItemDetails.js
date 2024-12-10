@@ -99,7 +99,7 @@ const ItemDetails = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col lg:flex-row gap-2">
+      <div className="flex flex-col lg:flex-row gap-2 w-full">
         <div className="w-full flex flex-col gap-4">
           <h3 className="font-cabinet text-[20px] font-normal leading-[25px] text-left ">
             Description produit

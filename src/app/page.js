@@ -1,5 +1,6 @@
 import ArticlesSimilaities from "@/components/ArticlesSimilaities";
 import BannerSection from "@/components/BannerSection";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ItemDetails from "@/components/ItemDetails";
 
@@ -13,6 +14,7 @@ export default function Home() {
       <ArticlesSimilaities />
       <SliderComponent />
       <BannerSection />
+      <Footer />
     </div>
   );
 }
